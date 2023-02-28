@@ -3,14 +3,11 @@ body {
     background-color: darkred;
   }
 
-  .center {
+  article {
     text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
   }
-
-  img {
+  
+    img {
     display: block;
     margin-left: auto;
     margin-right: auto;
