@@ -27,3 +27,7 @@ body {
     margin-right: auto;
     width: 40%;
   }
+
+  footer {
+    text-align: center;
+  }
