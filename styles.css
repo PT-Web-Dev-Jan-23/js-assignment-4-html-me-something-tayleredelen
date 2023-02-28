@@ -2,3 +2,9 @@
 body {
     background-color: darkred;
   }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
