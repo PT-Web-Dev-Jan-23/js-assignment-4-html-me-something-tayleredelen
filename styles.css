@@ -13,14 +13,9 @@ body {
   }
 
   h2 {
-    float: left;
     font-size: 40px;
     font-weight: bold;
   }
-
-p {
-  float:right;
-}
 
   figcaption {
     font-size: 20px;
@@ -31,7 +26,6 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    float: left;
   }
 
   footer {
