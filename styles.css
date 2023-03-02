@@ -1,27 +1,35 @@
 /* Write your CSS here! */
 body {
   background-color: darkred;
-}
-
-div {
-  width: 300px;
-  border: 15px black;
-  padding: 50px;
-  margin: 20px;
+  font-family: "Bahnschrift", Times, serif;
 }
 
 article {
   text-align: center;
+  width: auto;
 }
 
-h1 {
+/* Collage Art Gallery at top */
+#mainTitle {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
 }
 
-h2 {
-  font-size: 40px;
+.artTitle {
+  font-size: 50px;
   font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.artDescription {
+  padding-right: 200px;
+  padding-left: 200px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black ;
+  border-radius: 100px;
+  background-color: ivory;
 }
 
 figcaption {
