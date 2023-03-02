@@ -5,14 +5,28 @@
       <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
-      <header>
-         <h1 id = "mainTitle">~Collage Art Gallery~</h1>
-         <p id = "intro"> Tayler Edelen is a self taught collage artist that's been pushing papers since birth. 
-            No really, as a baby she would play with magazine scraps and organize them into piles. 
-            The love of repurposing has grown into an expressive medium. 
-            Using magazines, glue, and tape Tayler creates art that is thought-provoking and trippy. </p>
+      <header id = "mainHeading">
+         <h1>~Collage Art Gallery~</h1>
       </header>
+
+      <p id = "intro"> Tayler Edelen is a self taught collage artist that's been pushing papers since birth. 
+         No really, as a baby she would play with magazine scraps and organize them into piles. 
+         The love of repurposing has grown into an expressive medium. 
+         Using magazines, glue, and tape Tayler creates art that is thought-provoking and trippy. 
+         Click a link below to explore her latest work...
+      </p>
+
+      <nav>
+         <ul id="navLinks">
+            <li><a href="#MarsRiver"> Mars River</a></li>
+            <li><a href="#CreativeDistraction"> Creative Distraction</a></li>
+            <li><a href="#RiskyBehavior"> Risky Behavior</a></li>
+            <li><a href="#MightAsWellJump"> Might As Well Jump</a></li>
+         </ul>
+      </nav>
+
       <main>
+         <div id = "MarsRiver">
          <article>
                <h2 class = "artTitle">Mars River</h2>
                   <p class = "artDescription">
@@ -29,7 +43,9 @@
                   </figcaption>
                </figure>
          </article>
+      </div>
 
+      <div id = "CreativeDistraction">
          <article>
             <h2 class = "artTitle">Creative Distraction</h2>
             <p class = "artDescription">
@@ -46,7 +62,9 @@
                </figcaption>
             </figure>
       </article>
+   </div>
 
+   <div id = "RiskyBehavior">
       <article>
          <h2 class = "artTitle">Risky Behavior</h2>
          <p class = "artDescription">
@@ -64,10 +82,12 @@
             </figcaption>
          </figure>
    </article>
+</div>
 
+<div id = "MightAsWellJump">
    <article>
       <h2 class = "artTitle">Might As Well Jump</h2>
-      <p class = "artDescription">
+      <p id ="testP" class="funParagraph">
          I enjoy collage art because it gives me the ability to create the absurd. 
          I used an image of people jumping from a dock, and placed them above the erupting volcano. 
          This was challenging because the people are so tiny, and I didn't want to lose any details of their silhouettes. 
@@ -81,6 +101,8 @@
          </figcaption>
       </figure>
 </article>
+</div>
+
       </main>
       <footer>
          <p>&copy; 2023 Tayler Edelen</p>

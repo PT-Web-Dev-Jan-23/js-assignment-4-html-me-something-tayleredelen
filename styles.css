@@ -1,9 +1,19 @@
 /* Write your CSS here! */
 body {
-  background-color: darkred;
+  margin: 8px;
+  display: block;
+  background-color: khaki;
   font-family: "Bahnschrift", Times, serif;
   padding-right: 200px;
   padding-left: 200px;
+}
+
+#navLinks {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding-right: 300px;
+  padding-left: 300px;
 }
 
 article {
@@ -11,10 +21,11 @@ article {
   width: auto;
 }
 
-#mainTitle {
+#mainHeading {
   text-align: center;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: bold;
+  color: red;
 }
 
 #intro {
@@ -35,6 +46,17 @@ article {
 }
 
 .artDescription {
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black ;
+  border-radius: 100px;
+  background-color: ivory;
+}
+
+#testP.funParagraph {
+  color: green;
   padding-right: 100px;
   padding-left: 100px;
   text-align: center;
