@@ -2,6 +2,8 @@
 body {
   background-color: darkred;
   font-family: "Bahnschrift", Times, serif;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 article {
@@ -9,10 +11,20 @@ article {
   width: auto;
 }
 
-/* Collage Art Gallery at top */
 #mainTitle {
   text-align: center;
-  font-size: 70px;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#intro {
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 100px;
+  background-color: ivory;
 }
 
 .artTitle {
@@ -23,8 +35,8 @@ article {
 }
 
 .artDescription {
-  padding-right: 200px;
-  padding-left: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
   text-align: center;
   font-size: 20px;
   border: 1px solid black ;
@@ -40,7 +52,8 @@ figcaption {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 500px;
+  height: 500px;
 }
 
 footer {
